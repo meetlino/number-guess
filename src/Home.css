@@ -1,0 +1,69 @@
+li{
+    list-style-type: none;
+  }
+
+ul{
+    text-align: left;
+    border-radius: 10px;
+    background-color: rgb(240, 226, 98);
+    padding: 20px 30px;
+    margin: auto;
+    display: inline-block;
+  }
+
+ul li:before {
+    content: '✓';
+  }
+
+body{
+    background-color: #7195de;
+    margin: 4%;
+    background-image: url("pexels-black-ice-551383-1314541.jpg"
+      );
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+}
+
+.head{
+    font-weight: 600px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+.copyright{
+    text-align: center;
+  }
+
+.homeButton{
+    background-color: rgb(20, 143, 69);
+    color: white;
+    border: 2px solid white;
+    padding: 10px 1%;
+    margin: auto;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    border-radius: 25px;
+  }
+
+.aim{
+    font-weight: 600px;
+    font-size: 25px;
+}
+.homeButton:hover{
+    background-color: rgb(36, 255, 124);
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.homeButton:active{
+  background-color: rgb(20, 143, 69);
+      border: 2px solid yellow;
+
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+      transform: translateY(4px);
+}
